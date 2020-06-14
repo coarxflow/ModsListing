@@ -1,0 +1,29 @@
+For all the people tired of managing their growing number of mods, I came up with this little utility. It lets you save and restore the used mods at any point. Useful for linking a city with a set of mods and assets.
+
+To use it, go to Content Manager -> Mods -> Mos Listing -> Options. From there, a save configuration from all the mods currently activated can be made. The configuration name can be chosen, so that it is easy to find it later and reload it.
+
+The "Apply Now" button is a bit buggy. So it is better to choose the apply on restart option for the moment.
+
+This mod uses the UIHelperExtended library from Klyte for a more advanced user interface.
+
+
+version log
+
+***** version 1.01 *****
+
+- implemented basic save and load features
+
+known issues :
+- game lags after activating/de-activating mods
+- mods checkboxes do not refresh automatically in content manager. press F5
+- some mod names/IDs seems to get confused when using apply now
+
+future ideas :
+- list activated mods in each configuration
+
+***** version 1.1.0 *****
+
+- display mods, assets and their status listed in a config
+- default save config name is replaced with the one of the currently loaded config
+- added a button to copy list to the clipboard
+- pressing the apply buttons will now show some feedback
